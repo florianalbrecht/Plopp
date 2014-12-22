@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2537FB931A16925F0030D560 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2537FB921A16925F0030D560 /* main.m */; };
+		2537FB961A16925F0030D560 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2537FB951A16925F0030D560 /* AppDelegate.m */; };
+		2537FB9E1A16925F0030D560 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2537FB9D1A16925F0030D560 /* Images.xcassets */; };
+		2537FBA11A16925F0030D560 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2537FB9F1A16925F0030D560 /* LaunchScreen.xib */; };
+		2537FBAD1A16925F0030D560 /* PloppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2537FBAC1A16925F0030D560 /* PloppTests.m */; };
+		2537FBB81A1692BF0030D560 /* GameboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2537FBB71A1692BF0030D560 /* GameboardView.m */; };
+		2537FBBB1A1693830030D560 /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = 2537FBBA1A1693830030D560 /* Ball.m */; };
+		2537FBBE1A1693AB0030D560 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2537FBBD1A1693AB0030D560 /* GameViewController.m */; };
+		2537FBC11A1694CC0030D560 /* ScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2537FBC01A1694CC0030D560 /* ScoreView.m */; };
+		2537FBC41A1694FA0030D560 /* UIColor+PloppColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 2537FBC31A1694FA0030D560 /* UIColor+PloppColors.m */; };
+		2537FBC71A16950C0030D560 /* UIFont+PloppFonts.m in Sources */ = {isa = PBXBuildFile; fileRef = 2537FBC61A16950C0030D560 /* UIFont+PloppFonts.m */; };
+		2537FBD11A169C090030D560 /* plopp01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2537FBCE1A169C090030D560 /* plopp01.mp3 */; };
+		2537FBD21A169C090030D560 /* plopp02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2537FBCF1A169C090030D560 /* plopp02.mp3 */; };
+		2537FBD31A169C090030D560 /* plopp03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2537FBD01A169C090030D560 /* plopp03.mp3 */; };
+		2537FBD51A169C3E0030D560 /* bonus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2537FBD41A169C3E0030D560 /* bonus@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2537FBA71A16925F0030D560 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2537FB851A16925F0030D560 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2537FB8C1A16925F0030D560;
+			remoteInfo = Plopp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2537FB8D1A16925F0030D560 /* Plopp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plopp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2537FB911A16925F0030D560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2537FB921A16925F0030D560 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2537FB941A16925F0030D560 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2537FB951A16925F0030D560 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2537FB9D1A16925F0030D560 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2537FBA01A16925F0030D560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2537FBA61A16925F0030D560 /* PloppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PloppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2537FBAB1A16925F0030D560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2537FBAC1A16925F0030D560 /* PloppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PloppTests.m; sourceTree = "<group>"; };
+		2537FBB61A1692BF0030D560 /* GameboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameboardView.h; sourceTree = "<group>"; };
+		2537FBB71A1692BF0030D560 /* GameboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameboardView.m; sourceTree = "<group>"; };
+		2537FBB91A1693830030D560 /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
+		2537FBBA1A1693830030D560 /* Ball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ball.m; sourceTree = "<group>"; };
+		2537FBBC1A1693AB0030D560 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		2537FBBD1A1693AB0030D560 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		2537FBBF1A1694CC0030D560 /* ScoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreView.h; sourceTree = "<group>"; };
+		2537FBC01A1694CC0030D560 /* ScoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreView.m; sourceTree = "<group>"; };
+		2537FBC21A1694FA0030D560 /* UIColor+PloppColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PloppColors.h"; sourceTree = "<group>"; };
+		2537FBC31A1694FA0030D560 /* UIColor+PloppColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PloppColors.m"; sourceTree = "<group>"; };
+		2537FBC51A16950C0030D560 /* UIFont+PloppFonts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+PloppFonts.h"; sourceTree = "<group>"; };
+		2537FBC61A16950C0030D560 /* UIFont+PloppFonts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+PloppFonts.m"; sourceTree = "<group>"; };
+		2537FBCE1A169C090030D560 /* plopp01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = plopp01.mp3; sourceTree = "<group>"; };
+		2537FBCF1A169C090030D560 /* plopp02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = plopp02.mp3; sourceTree = "<group>"; };
+		2537FBD01A169C090030D560 /* plopp03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = plopp03.mp3; sourceTree = "<group>"; };
+		2537FBD41A169C3E0030D560 /* bonus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bonus@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2537FB8A1A16925F0030D560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2537FBA31A16925F0030D560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2537FB841A16925F0030D560 = {
+			isa = PBXGroup;
+			children = (
+				2537FB8F1A16925F0030D560 /* Plopp */,
+				2537FBA91A16925F0030D560 /* PloppTests */,
+				2537FB8E1A16925F0030D560 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2537FB8E1A16925F0030D560 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2537FB8D1A16925F0030D560 /* Plopp.app */,
+				2537FBA61A16925F0030D560 /* PloppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2537FB8F1A16925F0030D560 /* Plopp */ = {
+			isa = PBXGroup;
+			children = (
+				2537FBCB1A169BB60030D560 /* View Controller */,
+				2537FBCC1A169BBF0030D560 /* Views */,
+				2537FBCD1A169BD90030D560 /* Helper */,
+				2537FBCA1A169BA80030D560 /* Resources */,
+				2537FB941A16925F0030D560 /* AppDelegate.h */,
+				2537FB951A16925F0030D560 /* AppDelegate.m */,
+				2537FB9D1A16925F0030D560 /* Images.xcassets */,
+				2537FB9F1A16925F0030D560 /* LaunchScreen.xib */,
+				2537FB901A16925F0030D560 /* Supporting Files */,
+			);
+			path = Plopp;
+			sourceTree = "<group>";
+		};
+		2537FB901A16925F0030D560 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2537FB911A16925F0030D560 /* Info.plist */,
+				2537FB921A16925F0030D560 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2537FBA91A16925F0030D560 /* PloppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2537FBAC1A16925F0030D560 /* PloppTests.m */,
+				2537FBAA1A16925F0030D560 /* Supporting Files */,
+			);
+			path = PloppTests;
+			sourceTree = "<group>";
+		};
+		2537FBAA1A16925F0030D560 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2537FBAB1A16925F0030D560 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2537FBCA1A169BA80030D560 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2537FBD41A169C3E0030D560 /* bonus@2x.png */,
+				2537FBCE1A169C090030D560 /* plopp01.mp3 */,
+				2537FBCF1A169C090030D560 /* plopp02.mp3 */,
+				2537FBD01A169C090030D560 /* plopp03.mp3 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2537FBCB1A169BB60030D560 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2537FBBC1A1693AB0030D560 /* GameViewController.h */,
+				2537FBBD1A1693AB0030D560 /* GameViewController.m */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		2537FBCC1A169BBF0030D560 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2537FBB61A1692BF0030D560 /* GameboardView.h */,
+				2537FBB71A1692BF0030D560 /* GameboardView.m */,
+				2537FBBF1A1694CC0030D560 /* ScoreView.h */,
+				2537FBC01A1694CC0030D560 /* ScoreView.m */,
+				2537FBB91A1693830030D560 /* Ball.h */,
+				2537FBBA1A1693830030D560 /* Ball.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		2537FBCD1A169BD90030D560 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2537FBC21A1694FA0030D560 /* UIColor+PloppColors.h */,
+				2537FBC31A1694FA0030D560 /* UIColor+PloppColors.m */,
+				2537FBC51A16950C0030D560 /* UIFont+PloppFonts.h */,
+				2537FBC61A16950C0030D560 /* UIFont+PloppFonts.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2537FB8C1A16925F0030D560 /* Plopp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2537FBB01A16925F0030D560 /* Build configuration list for PBXNativeTarget "Plopp" */;
+			buildPhases = (
+				2537FB891A16925F0030D560 /* Sources */,
+				2537FB8A1A16925F0030D560 /* Frameworks */,
+				2537FB8B1A16925F0030D560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Plopp;
+			productName = Plopp;
+			productReference = 2537FB8D1A16925F0030D560 /* Plopp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2537FBA51A16925F0030D560 /* PloppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2537FBB31A16925F0030D560 /* Build configuration list for PBXNativeTarget "PloppTests" */;
+			buildPhases = (
+				2537FBA21A16925F0030D560 /* Sources */,
+				2537FBA31A16925F0030D560 /* Frameworks */,
+				2537FBA41A16925F0030D560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2537FBA81A16925F0030D560 /* PBXTargetDependency */,
+			);
+			name = PloppTests;
+			productName = PloppTests;
+			productReference = 2537FBA61A16925F0030D560 /* PloppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2537FB851A16925F0030D560 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Florian Albrecht";
+				TargetAttributes = {
+					2537FB8C1A16925F0030D560 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = H54NRPVNYK;
+					};
+					2537FBA51A16925F0030D560 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 2537FB8C1A16925F0030D560;
+					};
+				};
+			};
+			buildConfigurationList = 2537FB881A16925F0030D560 /* Build configuration list for PBXProject "Plopp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2537FB841A16925F0030D560;
+			productRefGroup = 2537FB8E1A16925F0030D560 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2537FB8C1A16925F0030D560 /* Plopp */,
+				2537FBA51A16925F0030D560 /* PloppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2537FB8B1A16925F0030D560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2537FBA11A16925F0030D560 /* LaunchScreen.xib in Resources */,
+				2537FB9E1A16925F0030D560 /* Images.xcassets in Resources */,
+				2537FBD51A169C3E0030D560 /* bonus@2x.png in Resources */,
+				2537FBD31A169C090030D560 /* plopp03.mp3 in Resources */,
+				2537FBD21A169C090030D560 /* plopp02.mp3 in Resources */,
+				2537FBD11A169C090030D560 /* plopp01.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2537FBA41A16925F0030D560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2537FB891A16925F0030D560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2537FBC71A16950C0030D560 /* UIFont+PloppFonts.m in Sources */,
+				2537FBBB1A1693830030D560 /* Ball.m in Sources */,
+				2537FBC11A1694CC0030D560 /* ScoreView.m in Sources */,
+				2537FB961A16925F0030D560 /* AppDelegate.m in Sources */,
+				2537FB931A16925F0030D560 /* main.m in Sources */,
+				2537FBBE1A1693AB0030D560 /* GameViewController.m in Sources */,
+				2537FBB81A1692BF0030D560 /* GameboardView.m in Sources */,
+				2537FBC41A1694FA0030D560 /* UIColor+PloppColors.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2537FBA21A16925F0030D560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2537FBAD1A16925F0030D560 /* PloppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2537FBA81A16925F0030D560 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2537FB8C1A16925F0030D560 /* Plopp */;
+			targetProxy = 2537FBA71A16925F0030D560 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2537FB9F1A16925F0030D560 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2537FBA01A16925F0030D560 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2537FBAE1A16925F0030D560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2537FBAF1A16925F0030D560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2537FBB11A16925F0030D560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Plopp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		2537FBB21A16925F0030D560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Plopp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2537FBB41A16925F0030D560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PloppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plopp.app/Plopp";
+			};
+			name = Debug;
+		};
+		2537FBB51A16925F0030D560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PloppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plopp.app/Plopp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2537FB881A16925F0030D560 /* Build configuration list for PBXProject "Plopp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2537FBAE1A16925F0030D560 /* Debug */,
+				2537FBAF1A16925F0030D560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2537FBB01A16925F0030D560 /* Build configuration list for PBXNativeTarget "Plopp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2537FBB11A16925F0030D560 /* Debug */,
+				2537FBB21A16925F0030D560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2537FBB31A16925F0030D560 /* Build configuration list for PBXNativeTarget "PloppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2537FBB41A16925F0030D560 /* Debug */,
+				2537FBB51A16925F0030D560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2537FB851A16925F0030D560 /* Project object */;
+}
